@@ -1,8 +1,11 @@
 # CI/CD for ML with GitHub Actions and Google Cloud Platform
 
 **Author:** Rahul Gudivada
+
 **Course:** MLOps, Northeastern University (Lab Assignment 1)
-**Based on:** [raminmohammadi/MLOps - Labs/Github_Labs/Lab4](https://github.com/raminmohammadi/MLOps/tree/main/Labs/Github_Labs/Lab4)
+
+**Based on:** [raminmohammadi/MLOps - Labs/Github_Labs/Lab4]
+(https://github.com/raminmohammadi/MLOps/tree/main/Labs/Github_Labs/Lab4)
 
 This project is an automated CI/CD pipeline for a machine learning model. On every push to `main`, GitHub Actions tests the code, trains a model, checks that it meets a quality bar, versions it in Google Cloud Storage, and packages it as a Docker image in Google Artifact Registry.
 
